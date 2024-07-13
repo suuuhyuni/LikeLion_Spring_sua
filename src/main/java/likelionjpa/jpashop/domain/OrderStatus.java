@@ -2,5 +2,5 @@ package likelionjpa.jpashop.domain;
 
 public enum OrderStatus {
 
-    ORDER, CANCEL
+    ORDER, PREPARE, DEPART, ARRIVE, COMPLETE, CANCEL
 }
