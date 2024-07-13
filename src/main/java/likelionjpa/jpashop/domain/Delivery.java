@@ -17,12 +17,14 @@ public class Delivery {
 
     private Long id;
 
+    @OneToOne
+    @JoinColumn(name = "order_id")
+    private Order orders;
+
     @Embedded       //내장 타임을 매핑.
     private Address address;
 
     @Enumerated(EnumType.STRING)
-    private OrderStatus status;
+    private DeliveryStatus status;
 
-    @OneToOne (mappedBy = "delivery")   //일대일 관계. order 클래스의 delivery 필드에 의해 매핑됨.
-    private Order order;
 }
