@@ -1,0 +1,82 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+}
+
+.footerbar{
+    background-color: var(--color-main-black);
+    display: block;
+    width: 1440px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_txt_div{
+    display: block;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_title{
+    display: block;
+    font-family: "Gmarket Sans";
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.footer_menus{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+}
+.managers{
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 17.38px;
+    text-decoration: none;
+}
+
+.kau_likelion{
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 17.38px;
+    text-decoration: none;
+}
+
+.likelion_Univ{
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 17.38px;
+    text-decoration: none;
+}
+
+
+/*dd*/

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --color-main-black: #000000;
+    --color-green-main: #81C765;
+}
+
+.readme{
+    display:block;
+}
+
+.title_letme{
+    font-size: 50px;
+    font-family: "Ownglyph_meetme-Rg";
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-green-main);
+}
+
+.me{
+    display: flex;
+}
+
+.picture{
+    width: 500px;
+    height: 500px;
+}
+
+.name{
+    font-family: 'Ownglyph_meetme-Rg';
+    display: block;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+.insta_btn{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: none;
+}
+
+.sns_i{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.insta{
+    display: flex;
+    padding-top: 50px;
+}
+
+.id{
+    padding-left: 30px;
+    font-size: 50px;
+    font-family: 'Ownglyph_meetme-Rg';
+    text-decoration: none;
+    padding-top: 100px;
+}
+
+.b_btn{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: none;
+}
+
+.blog_btn{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.blog{
+    display: flex;
+    padding-top: 30px;
+}
+
+.account{
+    padding-left: 30px;
+    font-size: 50px;
+    font-family: 'Ownglyph_meetme-Rg';
+    text-decoration: none;
+    padding-top: 100px;
+}
+
+
+
